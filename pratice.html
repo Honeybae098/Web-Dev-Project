@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #ffffff;
+            font-family: Arial, sans-serif;
+
+        }
+
+        .calculator {
+            width: 250px;
+            background-color: blueviolet;
+            border-radius: 10px;
+            padding:10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+
+        }
+
+        .screen {
+            height: 50px;
+            background-color: rgb(255, 238, 142);
+            border-radius: 5px;
+            margin-bottom: 10px;
+            text-align: right;
+            padding: 10px;
+            font-size: 20px;
+            color:rgb(0, 0, 0);
+
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        
+        }
+
+        .button {
+            height: 50px;
+            width: 50px;
+            background-color: #12efff;
+            color: #000000;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            text-align: center;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .button:hover {
+            background-color: #c800ff;
+        }
+
+        .button.operator {
+            background-color: #c800ff;
+        }
+
+        .button.operator:hover {
+            background-color: #c800ff;
+        }
+
+        .button.equal {
+            background-color: #c800ff;
+        }
+
+        .button.equal:hover {
+            background-color: #c800ff;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen">0</div>
+        <div class="buttons">
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button operator">%</button>
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button operator">x</button>
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button operator">-</button>
+            <button class="button">0</button>
+            <button class="button">.</button>
+            <button class="button operator">+</button>
+            <button class="button equal">=</button>
+            </div>
+            </div>
+            </body>
+            </html>
+    
